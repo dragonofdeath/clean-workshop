@@ -1,0 +1,14 @@
+{
+  "name": "clean-workshop",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "scripts": {
+    "test": "bun test"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

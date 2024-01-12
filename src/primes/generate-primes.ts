@@ -1,6 +1,6 @@
 export function generatePrimes(maxValue: number): number[] {
+  // the only valid case
   if (maxValue >= 2) {
-    // the only valid case
     // declarations
     let s: number = maxValue + 1; // size of array
     let f: boolean[] = new Array(s);
